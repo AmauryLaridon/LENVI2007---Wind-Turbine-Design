@@ -20,7 +20,7 @@ def BEM(U, Omega, pitch, r, twist, chord, B, airfoils):
     
     omega = 0.3
     iter_max = 150
-    tol = 1e-12
+    tol = 1e-12 
     
     rho = 1.225
     for i in range(n):
